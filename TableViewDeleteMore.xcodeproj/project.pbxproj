@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEAEEB071DC0A83B008D20CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAEEB061DC0A83B008D20CF /* main.m */; };
+		BEAEEB0A1DC0A83B008D20CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAEEB091DC0A83B008D20CF /* AppDelegate.m */; };
+		BEAEEB101DC0A83B008D20CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAEEB0E1DC0A83B008D20CF /* Main.storyboard */; };
+		BEAEEB121DC0A83B008D20CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAEEB111DC0A83B008D20CF /* Assets.xcassets */; };
+		BEAEEB151DC0A83B008D20CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAEEB131DC0A83B008D20CF /* LaunchScreen.storyboard */; };
+		BEAEEB201DC0A85D008D20CF /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAEEB1D1DC0A85D008D20CF /* BottomView.m */; };
+		BEAEEB211DC0A85D008D20CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAEEB1F1DC0A85D008D20CF /* ViewController.m */; };
+		F4BE133AB7B51BA7F6673593 /* libPods-TableViewDeleteMore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC563F8EC6DA1D40807DF54 /* libPods-TableViewDeleteMore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34EC6B06DA880D1BE9C2F58E /* Pods-TableViewDeleteMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDeleteMore.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewDeleteMore/Pods-TableViewDeleteMore.release.xcconfig"; sourceTree = "<group>"; };
+		A3669DCA0A3EF10C375E589C /* Pods-TableViewDeleteMore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDeleteMore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewDeleteMore/Pods-TableViewDeleteMore.debug.xcconfig"; sourceTree = "<group>"; };
+		BEAEEB021DC0A83B008D20CF /* TableViewDeleteMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDeleteMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAEEB061DC0A83B008D20CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEAEEB081DC0A83B008D20CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEAEEB091DC0A83B008D20CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEAEEB0F1DC0A83B008D20CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEAEEB111DC0A83B008D20CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEAEEB141DC0A83B008D20CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEAEEB161DC0A83B008D20CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAEEB1C1DC0A85D008D20CF /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		BEAEEB1D1DC0A85D008D20CF /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		BEAEEB1E1DC0A85D008D20CF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEAEEB1F1DC0A85D008D20CF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAC563F8EC6DA1D40807DF54 /* libPods-TableViewDeleteMore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewDeleteMore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEAEEAFF1DC0A83B008D20CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE133AB7B51BA7F6673593 /* libPods-TableViewDeleteMore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F90BA281EEE518825EF67B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC563F8EC6DA1D40807DF54 /* libPods-TableViewDeleteMore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEAEEAF91DC0A83B008D20CF = {
+			isa = PBXGroup;
+			children = (
+				BEAEEB041DC0A83B008D20CF /* TableViewDeleteMore */,
+				BEAEEB031DC0A83B008D20CF /* Products */,
+				FE443105927BC7B905460905 /* Pods */,
+				10F90BA281EEE518825EF67B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEAEEB031DC0A83B008D20CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEAEEB021DC0A83B008D20CF /* TableViewDeleteMore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEAEEB041DC0A83B008D20CF /* TableViewDeleteMore */ = {
+			isa = PBXGroup;
+			children = (
+				BEAEEB081DC0A83B008D20CF /* AppDelegate.h */,
+				BEAEEB091DC0A83B008D20CF /* AppDelegate.m */,
+				BEAEEB1C1DC0A85D008D20CF /* BottomView.h */,
+				BEAEEB1D1DC0A85D008D20CF /* BottomView.m */,
+				BEAEEB1E1DC0A85D008D20CF /* ViewController.h */,
+				BEAEEB1F1DC0A85D008D20CF /* ViewController.m */,
+				BEAEEB0E1DC0A83B008D20CF /* Main.storyboard */,
+				BEAEEB111DC0A83B008D20CF /* Assets.xcassets */,
+				BEAEEB131DC0A83B008D20CF /* LaunchScreen.storyboard */,
+				BEAEEB161DC0A83B008D20CF /* Info.plist */,
+				BEAEEB051DC0A83B008D20CF /* Supporting Files */,
+			);
+			path = TableViewDeleteMore;
+			sourceTree = "<group>";
+		};
+		BEAEEB051DC0A83B008D20CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEAEEB061DC0A83B008D20CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE443105927BC7B905460905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3669DCA0A3EF10C375E589C /* Pods-TableViewDeleteMore.debug.xcconfig */,
+				34EC6B06DA880D1BE9C2F58E /* Pods-TableViewDeleteMore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEAEEB011DC0A83B008D20CF /* TableViewDeleteMore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEAEEB191DC0A83B008D20CF /* Build configuration list for PBXNativeTarget "TableViewDeleteMore" */;
+			buildPhases = (
+				941752F7EA662BF1A158153F /* [CP] Check Pods Manifest.lock */,
+				BEAEEAFE1DC0A83B008D20CF /* Sources */,
+				BEAEEAFF1DC0A83B008D20CF /* Frameworks */,
+				BEAEEB001DC0A83B008D20CF /* Resources */,
+				A6FFD2F454625CCC545F48C7 /* [CP] Embed Pods Frameworks */,
+				7696902939D4DC00BDCA144E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewDeleteMore;
+			productName = TableViewDeleteMore;
+			productReference = BEAEEB021DC0A83B008D20CF /* TableViewDeleteMore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEAEEAFA1DC0A83B008D20CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = DY;
+				TargetAttributes = {
+					BEAEEB011DC0A83B008D20CF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K8KYS8V72F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BEAEEAFD1DC0A83B008D20CF /* Build configuration list for PBXProject "TableViewDeleteMore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEAEEAF91DC0A83B008D20CF;
+			productRefGroup = BEAEEB031DC0A83B008D20CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEAEEB011DC0A83B008D20CF /* TableViewDeleteMore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEAEEB001DC0A83B008D20CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAEEB151DC0A83B008D20CF /* LaunchScreen.storyboard in Resources */,
+				BEAEEB121DC0A83B008D20CF /* Assets.xcassets in Resources */,
+				BEAEEB101DC0A83B008D20CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7696902939D4DC00BDCA144E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewDeleteMore/Pods-TableViewDeleteMore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		941752F7EA662BF1A158153F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6FFD2F454625CCC545F48C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewDeleteMore/Pods-TableViewDeleteMore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEAEEAFE1DC0A83B008D20CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAEEB0A1DC0A83B008D20CF /* AppDelegate.m in Sources */,
+				BEAEEB071DC0A83B008D20CF /* main.m in Sources */,
+				BEAEEB211DC0A85D008D20CF /* ViewController.m in Sources */,
+				BEAEEB201DC0A85D008D20CF /* BottomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEAEEB0E1DC0A83B008D20CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAEEB0F1DC0A83B008D20CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEAEEB131DC0A83B008D20CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAEEB141DC0A83B008D20CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEAEEB171DC0A83B008D20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEAEEB181DC0A83B008D20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEAEEB1A1DC0A83B008D20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3669DCA0A3EF10C375E589C /* Pods-TableViewDeleteMore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8KYS8V72F;
+				INFOPLIST_FILE = TableViewDeleteMore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.TableViewDeleteMore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEAEEB1B1DC0A83B008D20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34EC6B06DA880D1BE9C2F58E /* Pods-TableViewDeleteMore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8KYS8V72F;
+				INFOPLIST_FILE = TableViewDeleteMore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.TableViewDeleteMore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEAEEAFD1DC0A83B008D20CF /* Build configuration list for PBXProject "TableViewDeleteMore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAEEB171DC0A83B008D20CF /* Debug */,
+				BEAEEB181DC0A83B008D20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEAEEB191DC0A83B008D20CF /* Build configuration list for PBXNativeTarget "TableViewDeleteMore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAEEB1A1DC0A83B008D20CF /* Debug */,
+				BEAEEB1B1DC0A83B008D20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEAEEAFA1DC0A83B008D20CF /* Project object */;
+}
